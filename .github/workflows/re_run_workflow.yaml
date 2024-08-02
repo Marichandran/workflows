@@ -5,7 +5,7 @@ on:
     workflows: ["dummy-workflow"]
     types:
       - completed
-
+permissions: read-all
 jobs:
   fetch_and_process:
     runs-on: ubuntu-latest
